@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Sowmya Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<div class="profile">
+
+<img src="profile.jpg" alt="profile" id="profilePic">
+
+<h2>Sowmya</h2>
+<p>Aspiring Developer</p>
+
+</div>
+
+<div class="nav">
+
+<a onclick="showSection('home')">Home</a>
+<a onclick="showSection('about')">About</a>
+<a onclick="showSection('skills')">Skills</a>
+<a onclick="showSection('projects')">Projects</a>
+<a onclick="showSection('contact')">Contact</a>
+
+</div>
+
+</div>
+
+
+<div class="main">
+
+<!-- HOME -->
+
+<div id="home" class="section active">
+
+<div class="card">
+<h2>Welcome</h2>
+
+<p>
+Hi! I am Sowmya, a Computer Science Engineering student at
+Prasad V. Potluri Siddhartha Institute of Technology.
+</p>
+
+</div>
+
+<div class="card">
+<h3>Skills</h3>
+<p>Java, HTML, CSS, JavaScript(Basic),SQL(Basic)</p>
+</div>
+
+<div class="card">
+<h3>Projects</h3>
+<p>Women Safety App and Basic Student Calculator.</p>
+</div>
+
+</div>
+
+
+
+<!-- ABOUT -->
+
+<div id="about" class="section">
+
+<div class="card">
+
+<h2>About Me</h2>
+
+<p>
+Hi! I am Sowmya, a Computer Science Engineering student at
+Prasad V. Potluri Siddhartha Institute of Technology.
+I am passionate about software development and web technologies
+and enjoy building projects to improve my programming skills.
+</p>
+<p>
+    Here is my resume:
+</p>
+
+<a href="resume.pdf" target="_blank" class="resume-btn">
+View Resume
+</a>
+
+</div>
+
+</div>
+
+
+
+<!-- SKILLS -->
+
+<div id="skills" class="section">
+
+<div class="card">
+
+<h2>Skills</h2>
+
+<div class="skills-container">
+
+<div class="skill-box">Java</div>
+<div class="skill-box">HTML</div>
+<div class="skill-box">CSS</div>
+<div class="skill-box">JavaScript(Basic)</div>
+<div class="skill-box">SQL(Basic)</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- PROJECTS -->
+
+<div id="projects" class="section">
+
+<div class="card">
+
+<h2>Women Safety App</h2>
+
+<p>Basic frontend learning project.</p>
+
+<a class="project-btn"
+href="https://rajulapatisowmya-hub.github.io/Women-Safetyy/"
+target="_blank">
+
+View Project
+
+</a>
+
+</div>
+
+
+<div class="card">
+
+<h2>Basic Student Calculator</h2>
+
+<p>Simple calculator built using HTML, CSS and JavaScript.</p>
+
+<a class="project-btn"
+href="https://rajulapatisowmya-hub.github.io/Student-Calculator-/"
+target="_blank">
+
+View Project
+
+</a>
+
+</div>
+
+</div>
+
+
+
+<!-- CONTACT -->
+
+<div id="contact" class="section">
+
+<div class="card">
+
+<h2>Connect With Me</h2>
+
+<p>
+LinkedIn :
+<a href="https://www.linkedin.com/in/sowmya-rajulapati-1b1aa8325" target="_blank">
+View Profile
+</a>
+</p>
+
+<p>
+GitHub :
+<a href="https://github.com/rajulapatisowmya-hub" target="_blank">
+My GitHub
+</a>
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- PROFILE IMAGE POPUP -->
+
+<div id="imagePopup" class="popup">
+
+<span class="close">&times;</span>
+
+<img class="popup-content" id="popupImg">
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
